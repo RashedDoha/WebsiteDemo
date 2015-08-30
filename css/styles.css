@@ -27,6 +27,11 @@
     text-align: center;
 }
 
+#header_logo
+{
+    align-content: center;
+}
+
 /*Navbar styles*/
 
 .navbar-brand
