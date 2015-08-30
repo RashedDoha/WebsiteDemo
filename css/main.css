@@ -1,0 +1,21 @@
+/*Color variables*/
+/*Navbar styles*/
+.navbar-brand {
+  padding-top: 10px;
+}
+.form-control {
+  height: 30px;
+}
+#navbar-search-button {
+  height: 50px;
+}
+#nav-name {
+  padding-top: 18px;
+  padding-left: 0px;
+  display: inline;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: white;
+  background-color: #a90329;
+}
