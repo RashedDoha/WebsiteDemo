@@ -64,6 +64,7 @@
 
 /*Carousel styles*/
 
+
 .carousel-caption
 {
     background-color: rgba(252, 248, 227, 0.70);
@@ -84,6 +85,11 @@
 {
     color: black;
     padding: 0px;
+}
+
+#bigCallout
+{
+    margin-top: 10px;
 }
 
 
