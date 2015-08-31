@@ -149,6 +149,11 @@
     {
         display: none;
     }
+
+    .carousel-caption h2
+    {
+        margin: 5px 5px;
+    }
 }
 
 @media(min-width: 992px)
