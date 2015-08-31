@@ -114,6 +114,11 @@
     color: #a90329;
 }
 
+.clear
+{
+    clear:both;
+}
+
 
 #bigCallout
 {
