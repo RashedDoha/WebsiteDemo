@@ -32,6 +32,40 @@
     align-content: center;
 }
 
+.notice
+{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.notice .input-group
+{
+    margin-bottom: 10px;
+}
+
+.more-details
+{
+    font-size:16px;
+}
+
+.more-details a
+{
+    color: #a90329;
+}
+
+.more-details a:hover
+{
+    color: #8f0222;
+    text-decoration: underline;
+}
+
+
+
+.login-form
+{
+    text-align: left;
+}
+
 /*Navbar styles*/
 
 .navbar-brand
