@@ -128,6 +128,57 @@
     margin-top: 10px;
 }
 
+.footer
+{
+    /*height: 100px;*/
+    background-color: #333;
+    color: white;
+    padding: 30px;
+}
+
+.footer #logo
+{
+    font-size: 24px;
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer #small-logo
+{
+    font-size: 10px;
+}
+
+.footer .small
+{
+    color:white;
+}
+
+.footer #link-list
+{
+
+    list-style: none;
+    margin-bottom: 0px;
+    display: inline;
+}
+
+.footer #link-list li
+{
+    padding: 3px;
+    float:left;
+}
+
+.footer a
+{
+    color:white;
+}
+
+.footer a:hover
+{
+    color:white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 
 /*.dropdown-menu > li > a:hover*/
@@ -176,6 +227,7 @@
     {
         font-size: 12px;
     }
+
 }
 
 @media(max-width: 400px)
@@ -218,6 +270,21 @@
     .input-group
     {
         width: 100%;
+    }
+
+    .footer #link-list
+    {
+
+        list-style: none;
+        margin-bottom: 0px;
+        display: inline;
+        float:right;
+    }
+
+    .footer #link-list li
+    {
+        padding: 3px;
+        float:left;
     }
 }
 
