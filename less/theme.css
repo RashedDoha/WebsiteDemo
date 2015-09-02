@@ -484,13 +484,13 @@ fieldset[disabled] .btn-danger.active {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  text-shadow: 0 -1px 0 #286090;
-  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2b669a 100%);
-  background-image: -o-linear-gradient(top, #337ab7 0%, #2b669a 100%);
-  background-image: linear-gradient(to bottom, #337ab7 0%, #2b669a 100%);
+  text-shadow: 0 -1px 0 #77021d;
+  background-image: -webkit-linear-gradient(top, #a90329 0%, #830220 100%);
+  background-image: -o-linear-gradient(top, #a90329 0%, #830220 100%);
+  background-image: linear-gradient(to bottom, #a90329 0%, #830220 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);
-  border-color: #2b669a;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa90329', endColorstr='#ff830220', GradientType=0);
+  border-color: #830220;
 }
 .list-group-item.active .badge,
 .list-group-item.active:hover .badge,

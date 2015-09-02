@@ -101,6 +101,11 @@
     margin-bottom: 10px;
 }
 
+.story
+{
+    opacity:0;
+}
+
 .thumbnail
 {
     width:250px;
@@ -123,17 +128,31 @@
 }
 
 
-#bigCallout
+/*Audience section styles*/
+
+#audience-section
 {
-    margin-top: 10px;
+    padding-top: 80px;
+}
+
+#audience-list
+{
+    padding-top: 80px;
+}
+
+
+.showItem
+{
+    display:none;
 }
 
 .footer
 {
     /*height: 100px;*/
-    background-color: #333;
+    background-color: #85111e;
     color: white;
     padding: 30px;
+    margin-top: 20px;
 }
 
 .footer #logo
