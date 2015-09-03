@@ -2,6 +2,7 @@
  * Created by Rashed on 01/09/2015.
  */
 var listTally = 1;
+var fadeInSpeed = 'fast';
 $(document).ready(function() {
 
     $('.image-link').magnificPopup({type:'image'});
@@ -13,14 +14,28 @@ $(document).ready(function() {
 
 
     $('.continue-reading').on('scrollSpy:enter', function() {
-        $('#story1').fadeTo('slow', 1);
-        $('#story2').fadeTo('slow', 1);
-        $('#story3').fadeTo('slow', 1);
+        $('#story1').fadeTo(fadeInSpeed, 1);
+        $('#story2').fadeTo(fadeInSpeed, 1);
+        $('#story3').fadeTo(fadeInSpeed, 1);
+    });
+
+    $('#top-stories-header').on('scrollSpy:enter', function(){
+        $(this).show('slide', {direction: 'left'}, 1000);
+    });
+
+    $('#audience-header').on('scrollSpy:enter', function(){
+        $(this).show('slide', {direction: 'left'}, 1000);
     });
 
     $('.continue-reading').scrollSpy();
+    $('#top-stories-header').scrollSpy();
+    $('#audience-header').scrollSpy();
+    $('.tiptool').tooltipster();
+    //
 
     setInterval(function() {listScroller()}, 3000);
+
+
 
 
 });
