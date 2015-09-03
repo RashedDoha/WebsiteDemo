@@ -203,7 +203,7 @@ h3
 
 #audience-section
 {
-    height: 400px;
+
     padding-left: 0px;
 
 }
@@ -492,6 +492,13 @@ h3
     {
         padding: 3px;
         float:left;
+    }
+
+    #audience-section
+    {
+        height: 400px;
+        padding-left: 0px;
+
     }
 }
 
