@@ -294,6 +294,12 @@ h3
 }
 
 
+#news-updates,#upcoming-events
+{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
 
 
 .event-month
@@ -464,11 +470,7 @@ h3
         padding-top: 10px;
     }
 
-    #news-updates #upcoming-events
-    {
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
+
 
 
 
