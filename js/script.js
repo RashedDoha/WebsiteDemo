@@ -19,17 +19,17 @@ $(document).ready(function() {
         $('#story3').fadeTo(fadeInSpeed, 1);
     });
 
-    $('#top-stories-header').on('scrollSpy:enter', function(){
-        $(this).show('slide', {direction: 'left'}, 1000);
-    });
-
-    $('#audience-header').on('scrollSpy:enter', function(){
-        $(this).show('slide', {direction: 'left'}, 1000);
-    });
+    //$('#top-stories-header').on('scrollSpy:enter', function(){
+    //    $(this).show('slide', {direction: 'left'}, 1000);
+    //});
+    //
+    //$('#audience-header').on('scrollSpy:enter', function(){
+    //    $(this).show('slide', {direction: 'left'}, 1000);
+    //});
 
     $('.continue-reading').scrollSpy();
-    $('#top-stories-header').scrollSpy();
-    $('#audience-header').scrollSpy();
+    //$('#top-stories-header').scrollSpy();
+    //$('#audience-header').scrollSpy();
     $('.tiptool').tooltipster();
     //
 

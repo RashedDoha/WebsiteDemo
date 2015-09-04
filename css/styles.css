@@ -161,10 +161,10 @@ h3
 
 
 
-#top-stories-header
-{
-    display:none;
-}
+/*#top-stories-header*/
+/*{*/
+    /*display:none;*/
+/*}*/
 
 
 .story
@@ -198,10 +198,10 @@ h3
 
 /*Audience section styles*/
 
-#audience-header
-{
-  display:none;
-}
+/*#audience-header*/
+/*{*/
+  /*display:none;*/
+/*}*/
 
 #audience-section
 {
@@ -335,6 +335,39 @@ h3
     padding: 3px 10px 3px 3px;
 }
 
+.important-info
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.important-info ul
+{
+    list-style: none;
+    padding: 0px;
+}
+
+.important-info li
+{
+
+    padding-bottom: 10px;
+}
+
+.newsletter-content
+{
+    background-color: #333;
+    height: 300px;
+}
+
+.newsletter-form
+{
+    padding-top: 10em;
+}
+
+
+
+
+
 
 .footer
 {
@@ -342,7 +375,6 @@ h3
     background-color: #85111e;
     color: white;
     padding: 30px;
-    margin-top: 20px;
 }
 
 .footer #logo
@@ -470,6 +502,10 @@ h3
         padding-top: 10px;
     }
 
+    .newsletter-form .input-group
+    {
+
+    }
 
 
 
@@ -564,6 +600,36 @@ h3
     {
         width: 200px;
     }
+
+    .newsletter-content
+    {
+        height: 500px;
+    }
+
+    .newsletter-form
+    {
+        padding-top: 10em;
+    }
+}
+
+@media(max-width: 560px) {
+    .footer #link-list
+    {
+
+
+        display: block;
+        float:left;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer #link-list li
+    {
+        padding: 3px;
+        clear:left;
+    }
+
+
 }
 
 @media(max-width: 650px)
