@@ -2,7 +2,7 @@
  * Created by Rashed on 01/09/2015.
  */
 var listTally = 1;
-var fadeInSpeed = 'fast';
+var fadeInSpeed = 1000;
 $(document).ready(function() {
 
     $('.image-link').magnificPopup({type:'image'});
@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 
 
-    $('.continue-reading').on('scrollSpy:enter', function() {
+    $('.story-image').on('scrollSpy:enter', function() {
         $('#story1').fadeTo(fadeInSpeed, 1);
         $('#story2').fadeTo(fadeInSpeed, 1);
         $('#story3').fadeTo(fadeInSpeed, 1);
@@ -27,7 +27,7 @@ $(document).ready(function() {
     //    $(this).show('slide', {direction: 'left'}, 1000);
     //});
 
-    $('.continue-reading').scrollSpy();
+    $('.story-image').scrollSpy();
     //$('#top-stories-header').scrollSpy();
     //$('#audience-header').scrollSpy();
     $('.tiptool').tooltipster();

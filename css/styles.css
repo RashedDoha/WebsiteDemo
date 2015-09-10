@@ -3,7 +3,7 @@
 body
 {
     background-image: url('../images/cream_pixels/cream_pixels.png');
-
+    background-attachment: fixed;
 }
 
 a
@@ -38,11 +38,33 @@ h3
     height: 100px;
 }
 
+.secondary-header
+{
+    background: url('../images/header.png') no-repeat;
+    background-position: right;
+    height: 100px;
+}
+
+
+
 #header h3
 {
     color:white;
     margin: 0px;
-    padding-top: 40px;
+    padding-top: 25px;
+    height: 40px;
+
+}
+
+.name-header
+{
+    list-style: none;
+    padding: 0px;
+}
+
+.bangla-header
+{
+    font-family: BanglaFont;
 }
 
 .centered
@@ -157,6 +179,11 @@ h3
     border-bottom: 1px solid lightgray;
     margin-bottom: 10px;
     height: 40px;
+}
+
+.news-header span
+{
+    color: #a90329;
 }
 
 
@@ -374,6 +401,7 @@ h3
     background-color: #85111e;
     color: white;
     padding: 30px;
+    float:bottom;
 }
 
 .footer #logo
@@ -433,6 +461,13 @@ h3
     /*color: white;*/
 /*}*/
 
+/*Font faces*/
+
+@font-face {
+    font-family: BanglaFont;
+    src: url('../fonts/SolaimanLipi.ttf');
+}
+
 /*Media queries*/
 
 
@@ -447,7 +482,7 @@ h3
 
     .input-group
     {
-        width: 210%;
+        width: 180%;
 
     }
 
@@ -593,6 +628,11 @@ h3
         height: 300px;
         float:left;
     }
+
+    #panel
+    {
+        height: 300px;
+    }
 }
 
 @media(max-width: 992px)
@@ -616,6 +656,21 @@ h3
     .newsletter-form
     {
         padding-top: 10em;
+    }
+
+    #panel
+    {
+        height: 300px;
+    }
+
+    .notice
+    {
+        font-size: 0.9em;
+    }
+
+    .notice .input-group
+    {
+        width: 90%;
     }
 
 
@@ -654,4 +709,12 @@ h3
         height: 500px;
     }
 
+}
+
+/*Calendar styles*/
+
+.calendar
+
+{
+    min-height: 500px;
 }
