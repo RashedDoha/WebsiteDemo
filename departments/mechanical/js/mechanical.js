@@ -4,4 +4,5 @@
 
 $(document).ready(function(){
     $('#header').show('slide', {direction: 'left'}, 1000);
+    $('.image-link').magnificPopup({type:'image'});
 });
