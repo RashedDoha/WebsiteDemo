@@ -80,6 +80,33 @@ a:hover
 
 }
 
+.dean-message
+{
+    margin-top: 70px;
+}
+
+.dean-message h3
+{
+    text-align: right;
+    border-bottom: 1px solid #3B679E;
+}
+
+.dean-image img
+{
+    width: 200px;
+}
+
+.quote-marks
+{
+    font-size: 7em;
+}
+
+
+
+.dean-quote p
+{
+    display: inline;
+}
 .campus
 {
     display: inline;
@@ -179,6 +206,11 @@ a:hover
 
     }
 
+    .dean-image img
+    {
+        width: 150px;
+    }
+
 
     .navbar-search .input-group
     {
@@ -204,6 +236,11 @@ a:hover
 
 @media(max-width: 768px)
 {
+
+    .dean-image img
+    {
+        width: 130px;
+    }
 
 }
 

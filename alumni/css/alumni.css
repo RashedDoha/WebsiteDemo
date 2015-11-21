@@ -1,0 +1,252 @@
+@import "../../css/styles.css";
+
+a
+{
+    color: #222;
+}
+
+#MyCarousel img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption
+{
+    max-width: 80%;
+
+}
+
+#MyCarousel .carousel-caption
+{
+    position: relative;
+    bottom: 35%;
+    left: 0%;
+}
+
+
+#MyCarousel .carousel-caption h2
+{
+    color: #a90303;
+    text-shadow: 1px 1px white;
+}
+
+.item
+{
+    text-align: center;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus
+{
+    color: white;
+}
+
+a:hover
+{
+    color: #2F2F2F;
+}
+
+
+.header
+{
+    margin: auto;
+}
+
+.featured img
+{
+    width: 50%;
+    margin: 0 20px 20px 0;
+}
+
+.featured i,a
+{
+    color: #a90303;
+}
+
+.nav-tabs li.active a:link
+{
+    background-color: #a90303;
+}
+
+.nav-tabs li.active a:visited
+{
+    background-color: #a90303;
+}
+
+.nav-tabs li.active a:hover
+{
+    background-color: #a90303;
+}
+
+
+
+
+
+
+.nav-tabs li.active a:focus,
+{
+    background-color: #a90303;
+}
+
+
+
+
+
+.tab-pane > h3
+{
+    max-width: 60%;
+}
+
+.tab-pane > img
+{
+    margin: 0 0 20px 20px;
+    width: 30%;
+}
+
+.tab-pane i
+{
+    color: #a90303;
+}
+
+.tab-pane a
+{
+    color: #a90303;
+}
+
+.event-icon
+{
+    color: #a90303;
+}
+
+.newsletter
+{
+    background-color: #222;
+    padding: 30px;
+    text-align: center;
+}
+
+.newsletter .page-header
+{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+
+.newsletter button
+{
+    margin: 10px;
+}
+
+.newsletter .input-group
+{
+    width: 100%;
+}
+
+.social
+{
+    text-align: center;
+    margin: 100px 0 0 0;
+    min-height: 200px;
+}
+
+.social-icons
+{
+    font-size: 48px;
+}
+
+.footer
+{
+    background-color: #a90303;
+}
+
+
+/*
+
+Media Queries
+
+*/
+@media(min-width: 992px)
+{
+    .tab-content
+    {
+        min-height: 300px;
+    }
+
+    .description
+    {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .header
+    {
+        margin: auto;
+    }
+
+    #MyCarousel img
+    {
+        height: 100%;
+    }
+
+    #MyCarousel .carousel-inner
+    {
+        text-align: center;
+    }
+
+    #MyCarousel .carousel-caption
+    {
+        padding: 10px;
+        width: inherit;
+        position: absolute;
+        bottom: 60px;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    #MyCarousel .carousel-caption h2
+    {
+        font-size: 24px;
+    }
+
+    .carousel-indicators
+    {
+        bottom: 50px;
+    }
+}
+
+@media(max-width: 992px)
+{
+    #MyCarousel .carousel-inner
+    {
+        text-align: center;
+    }
+
+    #MyCarousel .carousel-caption
+    {
+        padding: 10px;
+        width: inherit;
+        position: absolute;
+        bottom: 60px;
+        left: 20px;
+        right: -10px;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    #MyCarousel .carousel-caption h2
+    {
+        font-size: 24px;
+    }
+
+    .carousel-indicators
+    {
+        bottom: 50px;
+    }
+}

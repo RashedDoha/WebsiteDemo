@@ -1,0 +1,89 @@
+@import "styles.css";
+
+.secondary-header h3
+{
+    padding-left:50px;
+}
+
+.office-home img
+{
+    width: 50%;
+    display:block;
+    margin: auto;
+}
+
+.widget
+{
+    margin: 20px 0 50px 0;
+}
+
+.office-widget
+{
+    background-color: #a90329;
+    padding: 10px;
+    color: white;
+    min-height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.office-widget form
+{
+    margin: auto;
+}
+
+.office-widget ul
+{
+    padding: 0px;
+    list-style: none;
+}
+
+.office-widget li
+{
+    margin: 0px;
+    padding: 10px;
+}
+
+.office-widget li a
+{
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+.office-widget li a:hover
+{
+    color: lightgray;
+    margin: 0px;
+    padding: 10px;
+}
+
+.downloads
+{
+    margin: 0px 0 30px 0;
+}
+
+.navbar-search
+{
+    padding-right: 10px;
+}
+
+
+.office-home img
+{
+    width: 30%;
+    float: left;
+
+}
+
+.office-home  img:nth-child(odd)
+{
+    margin: 30px 30px 30px 0;
+    float:left;
+}
+
+.office-home  img:nth-child(even)
+{
+    margin: 30px 0 30px 30px;
+    float:right;
+}

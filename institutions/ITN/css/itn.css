@@ -1,0 +1,370 @@
+@import "../../../css/styles.css";
+
+
+a
+{
+    color: #3B679E;
+}
+
+.news-icon
+{
+    color: #3B679E;
+}
+
+i
+{
+    color: #3B679E;
+    height: 1.2em;
+}
+
+#news-updates
+{
+    margin-top: 34px;
+}
+
+#news-updates i
+{
+    font-size: 30px;
+}
+
+.activity
+{
+    text-align: center;
+}
+
+.activity-icon
+{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 2px solid #3B679E;
+    margin: auto;
+}
+
+
+
+.activity-icon i
+{
+    font-size: 2em;
+    margin: -10px 0 0 -10px;
+}
+
+.social-media
+{
+    text-align: center;
+    margin: 100px 0 0 0;
+    min-height: 200px;
+}
+
+.social-icons
+{
+    font-size: 48px;
+}
+
+.activity-details
+{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.activity-details h4
+{
+    color: #3B679E;
+}
+
+.activity-details a:hover
+{
+    color: #0099CC;
+}
+
+a:hover
+{
+    color: #d8e1e7;
+}
+
+.secondary-nav
+{
+    float:left;
+}
+
+
+.secondary-header
+{
+    background-image: url("../images/itn-buet.png");
+    background-position: right;
+    height: 100px;
+
+}
+
+.featured-image img
+{
+    width: 100%;
+}
+
+.secondary-header h3, small
+{
+
+    padding-left:50px;
+}
+
+.secondary-header small
+{
+    position: relative;
+    top: 10px;
+}
+
+.secondary-header h3 strong, small
+{
+    color: navy;
+}
+
+.footer small
+{
+    color: white;
+}
+
+#header
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+51,e0eff9+100 */
+    background: #f2f6f8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 51%, #e0eff9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(51%,#d8e1e7), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 51%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 51%,#e0eff9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 51%,#e0eff9 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 51%,#e0eff9 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+    color: #1A1A1A;
+
+    display: none;
+
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: white;
+    background-color: #3B679E;
+}
+
+.carousel-caption
+{
+    background-color: rgba(34, 34, 34, 0.5);
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 0.5em;
+}
+
+.item
+{
+    max-height: 300px;
+}
+
+
+
+.carousel-caption h4
+{
+    color: white;
+}
+
+.carousel-caption a
+{
+    color: white;
+}
+
+.carousel-caption p
+{
+    color: white;
+    font-size: 0.9em;
+
+}
+
+.dean-message
+{
+    margin-top: 70px;
+}
+
+.dean-message h3
+{
+    text-align: right;
+    border-bottom: 1px solid #3B679E;
+}
+
+.dean-image img
+{
+    width: 200px;
+}
+
+.quote-marks
+{
+    font-size: 7em;
+}
+
+
+
+.dean-quote p
+{
+    display: inline;
+}
+.campus
+{
+    display: inline;
+
+}
+
+.campus-header
+{
+
+}
+
+.story
+{
+    opacity: 1;
+}
+
+.continue-reading
+{
+    color: #3B679E;
+}
+
+
+.info-piece .icon
+{
+    color: #3B679E;
+
+}
+
+#curriculum h3
+{
+    color: #3B679E;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.curriculum-list li
+{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.curriculum-list a
+{
+
+}
+
+#upcoming-events,#curriculum
+{
+    margin-top: 70px;
+}
+
+.header-icon
+{
+    color: #3B679E;
+}
+
+#upcoming-events h3
+{
+    color: #3B679E;
+
+}
+
+.footer
+{
+    /*height: 100px;*/
+    background-color: #3B679E;
+    margin-top: 30px;
+}
+
+
+/*Media Queries*/
+
+@media(max-width: 1200px)
+{
+    .navbar-search
+    {
+        margin: -50px 0 0 0;
+    }
+
+    .secondary-nav
+    {
+        margin-left: 20px;
+    }
+
+
+    .item
+    {
+        max-height: 250px;
+    }
+}
+
+@media(max-width: 992px)
+{
+    .navbar-search
+    {
+        margin: 0px;
+
+    }
+
+    .dean-image img
+    {
+        width: 150px;
+    }
+
+
+    .navbar-search .input-group
+    {
+        width: 100%;
+    }
+
+    .secondary-nav
+    {
+        clear:both;
+    }
+
+    .secondary-nav
+    {
+        margin: 0px;
+    }
+
+    .story .thumbnail
+    {
+        float: left;
+    }
+}
+
+
+@media(max-width: 768px)
+{
+
+    .dean-image img
+    {
+        width: 130px;
+    }
+
+}
+
+@media(min-width: 992px)
+{
+
+}
+
+/*About Us CSS */
+
+/*Faculty CSS*/
+
+.faculty-header
+{
+    background-color: #3B679E;
+    color: white;
+    margin: 2px;
+    text-align: center;
+}
+
+
+.faculty-info
+{
+    text-align: center;
+    padding: 30px;
+    min-height: 100px;
+}

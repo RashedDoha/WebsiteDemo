@@ -1,0 +1,131 @@
+@import "../../../css/styles.css";
+
+
+a
+{
+    color: #222;
+}
+
+
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus
+{
+    color: white;
+}
+
+a:hover
+{
+    color: #2F2F2F;
+}
+body
+{
+    background: none;
+}
+
+.header
+{
+    margin: auto;
+}
+
+.featured img
+{
+    width: 50%;
+    margin: 0 20px 20px 0;
+}
+
+.featured i,a
+{
+    color: #a90303;
+}
+
+.tab-pane > h3
+{
+    max-width: 60%;
+}
+
+.tab-pane > img
+{
+    margin: 0 0 20px 20px;
+    width: 30%;
+}
+
+.tab-pane i
+{
+    color: #a90303;
+}
+
+.tab-pane a
+{
+    color: #a90303;
+}
+
+.event-icon
+{
+    color: #a90303;
+}
+
+.newsletter
+{
+    background-color: #222;
+    padding: 30px;
+    text-align: center;
+}
+
+.newsletter .page-header
+{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+
+.newsletter button
+{
+    margin: 10px;
+}
+
+.newsletter .input-group
+{
+    width: 100%;
+}
+
+.social
+{
+    text-align: center;
+    margin: 100px 0 0 0;
+    min-height: 200px;
+}
+
+.social-icons
+{
+    font-size: 48px;
+}
+
+.footer
+{
+    background-color: #222;
+}
+
+
+/*
+
+Media Queries
+
+*/
+@media(min-width: 992px)
+{
+    .tab-content
+    {
+        min-height: 300px;
+    }
+}
+
+@media(max-width: 767px)
+{
+    .header
+    {
+        margin: auto;
+    }
+}

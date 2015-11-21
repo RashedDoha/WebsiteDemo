@@ -19,6 +19,8 @@
 </head>
 <body>
 
+
+
 <!-- Sliding down panel -->
 
 <!-- Panel -->
@@ -26,7 +28,7 @@
     <div id="panel">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-6 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <div class="notice">
                         <div class="well well-lg">
                             <h1>Students are advised to complete online course registration immidiately!!</h1>
@@ -44,7 +46,7 @@
 
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <div class="notice">
                         <h1>BIIS Login</h1>
                         <label class="pull-left">Username:</label>
@@ -53,11 +55,30 @@
                         </div>
                         <label class="pull-left">Password:</label>
                         <div class="input-group">
-                            <input class="form-control" type="text" placeholder="Password">
+                            <input class="form-control" type="password" placeholder="Password">
                         </div>
                         <label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp;Remember me</label>
                         <br/>
                         <button type="submit" class="btn btn-danger">Log In</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="notice">
+                        <h1>BUET Webmail</h1>
+                        <small>(Secured)</small>
+                        <label class="pull-left">User ID:</label>
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Username">
+                        </div>
+                        <label class="pull-left">Password:</label>
+                        <div class="input-group">
+                            <input class="form-control" type="password" placeholder="Password">
+                        </div>
+                        <label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp;Remember me</label>
+                        <br/>
+                        <button type="submit" class="btn btn-danger">Login</button>
+
                     </div>
                 </div>
             </div>
@@ -72,7 +93,7 @@
             <!--<li>Hello Guest!</li>-->
             <!--<li class="sep">|</li>-->
             <li id="toggle">
-                <a id="open" class="open-slider" href="#">Student Login</a>
+                <a id="open" class="open-slider" href="#">Login</a>
                 <a id="close" style="display: none;" class="close-slider" href="#">Close Panel</a>
             </li>
             <li class="right">&nbsp;</li>
@@ -81,11 +102,10 @@
 
 </div> <!--End Top panel -->
 
-
-
 <!-- Main header -->
 
 <div id="header">
+    <div class="clear"></div>
     <div class="secondary-header">
         <div class="container">
             <ul class="name-header">
@@ -101,7 +121,27 @@
     </div>
 
 
+
 </div>
+
+<div class="visitor-header">
+    <div class="container">
+        <ul class="visitor-list">
+            <li><a href="../students/students.html">Students</a></li>
+            <li><a href="../parents/parents.html">Parents</a></li>
+            <li><a href="../faculty/faculty.html">Faculty & Staff</a></li>
+            <li><a href="../alumni/alumni.html">Alumni</a></li>
+            <li><a href="../technical/technical.html">Technical Assistance</a></li>
+        </ul>
+
+    </div>
+
+
+</div>
+
+
+
+
 
 
 <!-- Site Navigation bar -->
@@ -137,22 +177,65 @@
                 <li class="dropdown">
                     <a  href="#" class="dropdown-toggle" data-toggle="dropdown">Departments <strong class="caret"></strong></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">EEE</a></li>
-                        <li><a href="#">CSE</a></li>
+                        <li class="disabled"><a href="#">EEE</a></li>
+                        <li class="disabled"><a href="#">CSE</a></li>
                         <li><a href="../departments/mechanical/mechanical.html">ME</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">CE</a></li>
-                        <li><a href="#">CHE</a></li>
-                        <li><a href="#">IPE</a></li>
-                        <li><a href="#">MME</a></li>
-                        <li><a href="#">NAME</a></li>
-                        <li><a href="#">URP</a></li>
-                        <li><a href="#">WRE</a></li>
+                        <li class="disabled"><a href="#">CE</a></li>
+                        <li class="disabled"><a href="#">CHE</a></li>
+                        <li class="disabled"><a href="#">IPE</a></li>
+                        <li class="disabled"><a href="#">MME</a></li>
+                        <li class="disabled"><a href="#">NAME</a></li>
+                        <li class="disabled"><a href="#">URP</a></li>
+                        <li class="disabled"><a href="#">WRE</a></li>
+                        <li class="disabled"><a href="#">ARCHI</a></li>
                     </ul> <!--End dropdown menu-->
                 </li>
                 <li><a href="calendar.html" target="_blank">Academic Calender</a></li>
-                <li><a href="admission.html" target="_blank">Admission</a></li>
-                <li><a href="#" target="_blank">Campus Life</a></li>
+
+                <li class="dropdown">
+                    <a  href="#" class="dropdown-toggle" data-toggle="dropdown">Halls <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../halls/SBH/sbh.html">Sher-E-Bangla Hall</a></li>
+                        <li class="disabled"><a href="#">Suhrawardi Hall</a></li>
+                        <li class="disabled"><a href="#">Titumir Hall</a></li>
+                        <li class="disabled"><a href="#">Ahsanullah Hall</a></li>
+                        <li class="disabled"><a href="#">Rashid Hall</a></li>
+                        <li class="disabled"><a href="#">Nazrul Hall</a></li>
+
+                    </ul> <!--End dropdown menu-->
+                </li>
+
+                <li><a href="office.html" target="_blank">Registrar Office</a></li>
+
+                <li class="dropdown">
+                    <a  href="#" class="dropdown-toggle" data-toggle="dropdown">Clubs <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../clubs/bps/bps.html">BUET Photographic Society</a></li>
+                        <li class="disabled"><a href="#">Murchona</a></li>
+                        <li class="disabled"><a href="#">Onuronon</a></li>
+                        <li class="disabled"><a href="#">BUET Debating Club</a></li>
+                        <li class="disabled"><a href="#">BUET Athletics Club</a></li>
+                        <li class="disabled"><a href="#">BUET Safety Club</a></li>
+
+                    </ul> <!--End dropdown menu-->
+                </li>
+
+                <li class="dropdown">
+                    <a  href="#" class="dropdown-toggle" data-toggle="dropdown">Institutes <strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../institutions/ITN/itn.html">ITN</a></li>
+                        <li class="disabled"><a href="#">IWFM</a></li>
+                        <li class="disabled"><a href="#">IAT</a></li>
+
+                        <li class="disabled"><a href="#">IICT</a></li>
+                        <li class="disabled"><a href="#">ARI</a></li>
+
+                    </ul> <!--End dropdown menu-->
+                </li>
+
+
+
+
 
 
             </ul> <!-- End navbar list -->
@@ -172,14 +255,6 @@
 
 
 
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" target="_blank">F.A.Q</a></li>
-                <li><a href="#" target="_blank">About BUET</a></li>
-                <li class="visible-xs"><a href="#" target="_blank">Sign In</a></li>
-            </ul> <!--End navbar-right-->
-
-
-
 
 
 
@@ -187,6 +262,8 @@
     </div><!-- End container -->
 
 </div><!--End Navbar-->
+
+
 
 <div class="container">
     <div class="carousel slide" id="MyCarousel">
