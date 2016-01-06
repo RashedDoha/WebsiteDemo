@@ -1,887 +1,605 @@
-/*Common styles*/
-
-body
-{
-    background-image: url('../images/cream_pixels/cream_pixels.png');
-    background-attachment: fixed;
+body {
+    background-image: url(../images/cream_pixels/cream_pixels.png);
+    background-attachment: fixed
 }
 
-a
-{
-    color: #a90329;
+a {
+    color: #a90329
 }
 
-a:hover
-{
-    color: #8f0222;
+a:hover {
+    color: #8f0222
 }
 
-h3
-{
-    padding-bottom: 10px;
+h3 {
+    padding-bottom: 10px
 }
 
-/*Header styles*/
-
-#header
-{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
-    background: #a90329; /* Old browsers */
-    background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
-
-    height: 100px;
+#header {
+    background: #a90329;
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a90329), color-stop(44%, #8f0222), color-stop(100%, #6d0019));
+    background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    background: -o-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    background: -ms-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a90329', endColorstr='#6d0019', GradientType=0);
+    height: 100px
 }
 
-
-
-
-
-.secondary-header
-{
-    background: url('../images/header.png') no-repeat;
+.secondary-header {
+    background: url(../images/header.png) no-repeat;
     background-position: right;
-    height: 100px;
+    height: 100px
 }
 
-
-
-#header h3
-{
-    color:white;
-    margin: 0px;
+#header h3 {
+    color: #fff;
+    margin: 0;
     padding-top: 20px;
-    height: 40px;
-
+    height: 40px
 }
 
-.name-header
-{
+.name-header {
     list-style: none;
-    padding: 0px;
+    padding: 0
 }
 
-.bangla-header
-{
-    font-family: BanglaFont;
+.bangla-header {
+    font-family: BanglaFont
 }
 
-.centered
-{
-    text-align: center;
+.centered {
+    text-align: center
 }
 
-#header_logo
-{
-    align-content: center;
+#header_logo {
+    align-content: center
 }
 
-.notice
-{
+.notice {
     margin-top: 10px;
-    text-align: left;
+    text-align: left
 }
 
-.notice .input-group
-{
-    margin-bottom: 10px;
+.notice .input-group {
+    margin-bottom: 10px
 }
 
-.more-details
-{
-    font-size:16px;
+.more-details {
+    font-size: 16px
 }
 
-.more-details a
-{
-    color: #a90329;
+.more-details a {
+    color: #a90329
 }
 
-.more-details a:hover
-{
+.more-details a:hover {
     color: #8f0222;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
-
-
-.login-form
-{
-    text-align: left;
+.login-form {
+    text-align: left
 }
 
-/*Navbar styles*/
-
-.navbar-brand
-{
-    padding-top: 10px;
+.navbar-brand {
+    padding-top: 10px
 }
 
-.form-control
-{
-    height: 30px;
+.form-control {
+    height: 30px
 }
 
-#navbar-search-button
-{
-    height: 30px;
+#navbar-search-button {
+    height: 30px
 }
 
-#nav-name
-{
+#nav-name {
     padding-top: 18px;
-    padding-left: 0px;
-    display: inline;
+    padding-left: 0;
+    display: inline
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: white;
-    background-color: #a90329;
+    color: #fff;
+    background-color: #a90329
 }
 
-
-/*Carousel styles*/
-
-#MyCarousel
-{
-    margin-bottom: 10px;
+#MyCarousel {
+    margin-bottom: 10px
 }
 
-
-.carousel-caption
-{
+.carousel-caption {
     background-color: rgba(252, 248, 227, 0.70);
     text-align: left;
-    padding: 5px 20px 20px 20px;
+    padding: 5px 20px 20px;
     width: 500px;
     margin: auto;
-    border-radius: 0.5em;
+    border-radius: .5em
 }
 
-.carousel-caption h2
-{
+.carousel-caption h2 {
     color: #a90329;
-    padding: 0px;
+    padding: 0
 }
 
-.carousel-caption p
-{
-    color: black;
-    padding: 0px;
+.carousel-caption p {
+    color: #000;
+    padding: 0
 }
 
-/*News Item Styles*/
-
-.news-header
-{
+.news-header {
     border-bottom: 1px solid lightgray;
     margin-bottom: 10px;
-    height: 40px;
+    height: 40px
 }
 
-.news-header span
-{
-    color: #a90329;
+.news-header span {
+    color: #a90329
 }
 
-
-
-/*#top-stories-header*/
-/*{*/
-    /*display:none;*/
-/*}*/
-
-
-.story
-{
-    opacity:0;
+.story {
+    opacity: 0
 }
 
-
-
-.thumbnail
-{
-    width:250px;
-    margin: 0 20px 10px 0;
+.thumbnail {
+    width: 250px;
+    margin: 0 20px 10px 0
 }
 
-.continue-reading
-{
-    font-family:"Trebuchet MS", Verdana, sans-serif;
+.continue-reading {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    color: #a90329;
+    color: #a90329
+}
+
+.clear {
+    clear: both
+}
+
+.intro
+{
+    min-height: 300px;
 }
 
 
-
-
-.clear
+.aboutInfo
 {
-    clear:both;
+    text-align: center;
+    padding: 60px 0;
 }
 
-
-/*Audience section styles*/
-
-/*#audience-header*/
-/*{*/
-  /*display:none;*/
-/*}*/
-
-#audience-section
-{
-
-    padding-left: 0px;
-
+#audience-section {
+    padding-left: 0
 }
 
-#audience-list
-{
-    padding-top: 80px;
+#audience-list {
+    padding-top: 80px
 }
 
-#audience-section img
-{
+#audience-section img {
     width: 400px;
-    height: 300px;
+    height: 300px
 }
 
-.audience-image
-{
-    height: 300px;
+.audience-image {
+    height: 300px
 }
 
-.showItem
-{
-    display:none;
+.showItem {
+    display: none
 }
 
-#news-updates h3
-{
-    border-bottom: 1px solid lightgray;
+#news-updates h3 {
+    border-bottom: 1px solid lightgray
 }
 
-#upcoming-events h3
-{
-    border-bottom: 1px solid lightgray;
+#upcoming-events h3 {
+    border-bottom: 1px solid lightgray
 }
 
-.header-icon
-{
-    color: #a90329;
+.header-icon {
+    color: #a90329
 }
 
-.news-item
-{
-    padding: 20px 10px;
-
+.news-item {
+    padding: 20px 10px
 }
 
-.news-item a
-{
-    color: #1A1A1A;
+.news-item a {
+    color: #1A1A1A
 }
 
-.news-item a:hover
-{
-    color: #000000;
+.news-item a:hover {
+    color: #000
 }
 
-.news-icon
-{
+.news-icon {
     font-size: 16px;
-    color: #a90329;
+    color: #a90329
 }
 
-.event
-{
-    clear:both;
+.event {
+    clear: both
 }
 
-.events-circle
-{
+.events-circle {
     width: 100px;
     width: 100px;
     border-radius: 50px;
-    background-color: white;
+    background-color: #fff;
     border: 3px solid #a90329;
     display: inline;
     font-size: 24px;
-    padding: 15px;
+    padding: 15px
 }
 
-.event-time
-{
-    float:left;
-    margin: 0 10px 10px 0;
-
+.event-time {
+    float: left;
+    margin: 0 10px 10px 0
 }
 
-
-#news-updates,#upcoming-events
-{
+#news-updates,
+#upcoming-events {
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 50px
 }
 
-
-
-.event-month
-{
-    display:block;
+.event-month {
+    display: block;
     font-size: 15px;
     font-family: "Trebuchet MS", Verdana, sans-serif;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
-.event-date
-{
+.event-date {
     display: block;
     font-size: 24px;
-    text-align: center;
-
+    text-align: center
 }
 
-.event-description
-{
-    padding: 10px 0;
+.event-description {
+    padding: 10px 0
 }
 
-.event-description p
-{
-    font-size: 16px;
-
+.event-description p {
+    font-size: 16px
 }
 
-.well-sm
-{
-    padding: 3px 10px 3px 3px;
+.well-sm {
+    padding: 3px 10px 3px 3px
 }
 
-.important-info
-{
+.important-info {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px
 }
 
-.important-info ul
-{
+.important-info ul {
     list-style: none;
-    padding: 0px;
+    padding: 0
 }
 
-.important-info li
-{
-
-    padding-bottom: 10px;
+.important-info li {
+    padding-bottom: 10px
 }
 
-.newsletter-content
-{
+.newsletter-content {
     background-color: #333;
-    height: 300px;
+    height: 300px
 }
 
-.newsletter-form
-{
-    padding-top: 10em;
+.newsletter-form {
+    padding-top: 10em
 }
 
-
-
-
-
-
-.footer
-{
-    /*height: 100px;*/
+.footer {
     background-color: #85111e;
-    color: white;
+    color: #fff;
     padding: 30px;
-    float:bottom;
+    float: bottom
 }
 
-.footer #logo
-{
+.footer #logo {
     font-size: 24px;
-    color:white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.footer #small-logo
-{
-    font-size: 10px;
+.footer #small-logo {
+    font-size: 10px
 }
 
-.footer .small
-{
-    color:white;
+.footer .small {
+    color: #fff
 }
 
-.footer #link-list
-{
-
+.footer #link-list {
     list-style: none;
-    margin-bottom: 0px;
-    display: inline;
+    margin-bottom: 0;
+    display: inline
 }
 
-.footer #link-list li
-{
+.footer #link-list li {
     padding: 3px;
-    float:left;
+    float: left
 }
 
-.footer #contact-list
-{
+.footer #contact-list {
     list-style: none;
-    margin-bottom: 0px;
+    margin-bottom: 0
 }
 
-.footer a
-{
-    color:white;
+.footer a {
+    color: #fff
 }
 
-.footer a:hover
-{
-    color:white;
+.footer a:hover {
+    color: #fff;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
-
-
-tr.table-header
-{
+tr.table-header {
     background-color: #a90329;
-    color: white;
-    font-weight: bolder;
+    color: #fff;
+    font-weight: bolder
 }
 
-table tr:nth-child(even)
-{
-    background-color: #f2f6f8;
+table tr:nth-child(even) {
+    background-color: #f2f6f8
 }
 
-.department-list
-{
-    margin-top: 42px;
+.department-list {
+    margin-top: 42px
 }
 
-/*
- * Off Canvas
- * --------------------------------------------------
- */
 @media screen and (max-width: 767px) {
     .row-offcanvas {
         position: relative;
         -webkit-transition: all .25s ease-out;
         -o-transition: all .25s ease-out;
-        transition: all .25s ease-out;
+        transition: all .25s ease-out
     }
-
     .row-offcanvas-right {
-        right: 0;
+        right: 0
     }
-
     .row-offcanvas-left {
-        left: 0;
+        left: 0
     }
-
-    .row-offcanvas-right
-    .sidebar-offcanvas {
-        right: -50%; /* 6 columns */
+    .row-offcanvas-right .sidebar-offcanvas {
+        right: -50%
     }
-
-    .row-offcanvas-left
-    .sidebar-offcanvas {
-        left: -50%; /* 6 columns */
+    .row-offcanvas-left .sidebar-offcanvas {
+        left: -50%
     }
-
     .row-offcanvas-right.active {
-        right: 50%; /* 6 columns */
+        right: 50%
     }
-
     .row-offcanvas-left.active {
-        left: 50%; /* 6 columns */
+        left: 50%
     }
-
     .sidebar-offcanvas {
         position: absolute;
         top: 0;
-        width: 50%; /* 6 columns */
+        width: 50%
+    }
+    .visitor-header {
+        background-color: #f5f5dc
+    }
+    .visitor-list {
+        list-style: none;
+        padding-left: 0
+    }
+    .visitor-list > li {
+        color: #fff;
+        padding: 10px;
+        display: inline;
+        width: 100%
+    }
+    .visitor-list a {
+        color: #A50328;
+        text-decoration: none;
+        max-height: 100%;
     }
 
-    .visitor-header
+    .intro h2
     {
-        background-color:#A50328
-    }
-    .visitor-list
-    {
-        list-style:none;
-        padding-left:0
-    }
-    .visitor-list > li
-    {
-        color:#fff;
-        padding:10px;
-        width:100%
-    }
-    .visitor-list a
-    {
-        color:#fff;
-        text-decoration:none;
-        padding:10px
-    }
-    .visitor-list a:hover
-    {
-        background-color:#6F001A
+        font-size: 1.9em;
     }
 
-
+    .aboutInfo
+    {
+        padding: 10px 0;
+    }
+    /*.visitor-list a:hover {*/
+    /*background-color: #eeeec4*/
+    /*}*/
 }
-
-/*.table-header td:nth-child(1)*/
-/*{*/
-    /*width: 72px;*/
-/*}*/
-
-/*tr td:nth-child(2)*/
-/*{*/
-    /*width: 259px;*/
-/*}*/
-
-/*tr td:nth-child(3)*/
-/*{*/
-    /*width: 108px;*/
-/*}*/
-
-/*tr td:nth-child(4)*/
-/*{*/
-    /*width: 98px;*/
-/*}*/
-
-/*tr td:nth-child(5)*/
-/*{*/
-    /*width: 97px;*/
-/*}*/
-
-
-
-/*.dropdown-menu > li > a:hover*/
-/*{*/
-    /*background-color: #a90329;*/
-    /*color: white;*/
-/*}*/
-
-/*Font faces*/
 
 @font-face {
     font-family: BanglaFont;
-    src: url('../fonts/SolaimanLipi.ttf');
+    src: url(../fonts/SolaimanLipi.ttf)
 }
 
-.profile-left
-{
+.profile-left {
     text-align: center;
-    margin: 10px 0 30px;
+    margin: 10px 0 30px
 }
 
-.bold
-{
-    font-weight: bolder;
+.bold {
+    font-weight: bolder
 }
 
-/*Media queries*/
-
-
-
-@media(min-width: 768px)
-{
-    .navbar-search
-    {
-        float:left;
-        padding-left: 17px;
+@media(min-width: 768px) {
+    .navbar-search {
+        float: left;
+        padding-left: 17px
     }
-
-    .input-group
-    {
-        width: 180%;
-
+    .input-group {
+        width: 180%
     }
-
-    .visitor-header
-    {
-        background-color: #A50328;
+    .visitor-header {
+        background-color: #F5F5DC;
     }
-
-    .visitor-list
-    {
+    .visitor-list {
         list-style: none;
         padding: 10px;
-        margin: 0px;
-        float:right;
+        margin: 0;
+        float: right;
         padding: 10px;
-        margin: 0 100px 0 0;
-
+        margin: 0 100px 0 0
     }
-
-    .visitor-list > li
-    {
-        color: white;
-        display: inline;
-
+    .visitor-list > li {
+        color: #fff;
+        display: inline
     }
-
-    .visitor-list a
-    {
-        color: white;
+    .visitor-list a {
+        color: #A50328;
         text-decoration: none;
-        padding: 19px;
+        padding: 19px
     }
-
-    .visitor-list a:hover
-    {
-        background-color: #6F001A;
+    .visitor-list a:hover {
+        background-color: #eeeec4;
+        padding-bottom: 12px;
     }
-
-
-
 }
 
-@media(max-width: 768px)
-{
-
-    .carousel-caption
-    {
+@media(max-width: 768px) {
+    .carousel-caption {
         padding: 0 0 0 20px;
-        width: auto;
+        width: auto
     }
-
-    .carousel-caption h2
-    {
-        font-size: 16px;
+    .carousel-caption h2 {
+        font-size: 16px
     }
-
-    .carousel-caption p
-    {
-        font-size: 12px;
+    .carousel-caption p {
+        font-size: 12px
     }
-
-    .story .thumbnail
-    {
+    .story .thumbnail {
+        width: 200px
+    }
+    #audience-section {
+        height: 400px
+    }
+    #audience-section img {
         width: 200px;
+        height: 150px
     }
-
-    #audience-section
-    {
-        height: 400px;
-    }
-
-    #audience-section img
-    {
-        width: 200px;
-        height: 150px;
-    }
-
-    .audience-image
-    {
+    .audience-image {
         height: 200px;
-        float:left;
+        float: left
     }
-
-    #audience-list
-    {
-        padding-top: 10px;
+    #audience-list {
+        padding-top: 10px
     }
-
-    .newsletter-form .input-group
-    {
-
-    }
-
-
-
-
-
-
 }
 
-@media(max-width: 400px)
-{
-    .carousel-caption
-    {
+@media(max-width: 400px) {
+    .carousel-caption {
         padding: 0 0 0 20px;
         width: inherit;
         position: absolute;
-        bottom: 80px;
+        bottom: 80px
     }
-
-    #audience-section
-    {
-        height: 900px;
+    #audience-section {
+        height: 900px
     }
-
-    .story .thumbnail
-    {
-        width: 150px;
+    .story .thumbnail {
+        width: 150px
     }
-
-    .carousel-caption p
-    {
-        display: none;
+    .carousel-caption p {
+        display: none
     }
-
-    .carousel-caption h2
-    {
-        margin: 5px 5px;
+    .carousel-caption h2 {
+        margin: 5px
     }
 }
 
-
-@media(min-width: 992px)
-{
-    .navbar-search
-    {
-        float:right;
-        margin: -100px 0 0 0;
-
+@media(min-width: 992px) {
+    .navbar-search {
+        float: right;
+        margin: -100px 0 0
     }
-
-    #MyCarousel .item
-    {
-        height: 400px;
+    #MyCarousel .item {
+        height: 400px
     }
-
-
-
-    .input-group
-    {
-        width: 100%;
+    .input-group {
+        width: 100%
     }
-
-    .footer #link-list
-    {
-
+    .footer #link-list {
         list-style: none;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         display: inline;
-        float:right;
+        float: right
     }
-
-    .footer #link-list li
-    {
+    .footer #link-list li {
         padding: 3px;
-        float:left;
+        float: left
     }
-
-    #audience-section
-    {
+    #audience-section {
         height: 400px;
-        padding-left: 0px;
-
+        padding-left: 0
     }
-
-    .audience-image
-    {
+    .audience-image {
         height: 300px;
-        float:left;
+        float: left
     }
-
-    #panel
-    {
-        height: 300px;
+    #panel {
+        height: 300px
     }
 }
 
-@media(max-width: 992px)
-{
-    #audience-section img
-    {
+@media(max-width: 992px) {
+    #audience-section img {
         width: 300px;
-        height: 200px;
+        height: 200px
     }
-
-    .story .thumbnail
-    {
-        width: 200px;
+    .story .thumbnail {
+        width: 200px
     }
-
-    .newsletter-content
-    {
-        height: 500px;
+    .newsletter-content {
+        height: 500px
     }
-
-    .newsletter-form
-    {
-        padding-top: 10em;
+    .newsletter-form {
+        padding-top: 10em
     }
-
-    #panel
-    {
-        height: 300px;
+    #panel {
+        height: 300px
     }
-
-    .notice
-    {
-        font-size: 0.9em;
+    .notice {
+        font-size: .9em
     }
-
-    .notice .input-group
-    {
-        width: 90%;
+    .notice .input-group {
+        width: 90%
     }
-
-
 }
-
 
 @media(max-width: 560px) {
-    .footer #link-list
-    {
-
-
+    .footer #link-list {
         display: block;
-        float:left;
-        margin: 0px;
-        padding: 0px;
+        float: left;
+        margin: 0;
+        padding: 0
     }
-
-    .footer #link-list li
-    {
+    .footer #link-list li {
         padding: 3px;
-        clear:left;
+        clear: left
     }
-
-
-
 }
 
-@media(max-width: 650px)
-{
-    #nav-name{
-        display: none;
+@media(max-width: 650px) {
+    #nav-name {
+        display: none
     }
-
-    #audience-section
-    {
-        height: 500px;
+    #audience-section {
+        height: 500px
     }
-
 }
 
-/*Calendar styles*/
-
-.calendar
-
-{
-    min-height: 500px;
+.calendar {
+    min-height: 500px
 }
