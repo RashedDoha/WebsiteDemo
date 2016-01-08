@@ -357,6 +357,8 @@ table tr:nth-child(even) {
     margin-top: 42px
 }
 
+
+
 @media screen and (max-width: 767px) {
     .row-offcanvas {
         position: relative;
@@ -390,17 +392,17 @@ table tr:nth-child(even) {
     .visitor-header {
         background-color: #f5f5dc
     }
-    .visitor-list {
+    .visitor-list, .webmail-list {
         list-style: none;
-        padding-left: 0
+        padding-left: 0;
     }
-    .visitor-list > li {
+    .visitor-list > li, .webmail-list > li {
         color: #fff;
         padding: 10px;
         display: inline;
         width: 100%
     }
-    .visitor-list a {
+    .visitor-list a, .webmail-list a {
         color: #A50328;
         text-decoration: none;
         max-height: 100%;
@@ -414,7 +416,15 @@ table tr:nth-child(even) {
     .aboutInfo
     {
         padding: 10px 0;
+        color: white;
     }
+
+    .intro .row
+    {
+        background-color: #a90329;
+    }
+
+
     /*.visitor-list a:hover {*/
     /*background-color: #eeeec4*/
     /*}*/
@@ -449,20 +459,30 @@ table tr:nth-child(even) {
         list-style: none;
         padding: 10px;
         margin: 0;
+        float: left;
+        padding: 10px;
+
+    }
+
+    .webmail-list {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
         float: right;
         padding: 10px;
-        margin: 0 100px 0 0
     }
-    .visitor-list > li {
+    .visitor-list > li, .webmail-list > li {
         color: #fff;
         display: inline
     }
-    .visitor-list a {
+
+
+    .visitor-list a, .webmail-list a {
         color: #A50328;
         text-decoration: none;
         padding: 19px
     }
-    .visitor-list a:hover {
+    .visitor-list a:hover, .webmail-list a:hover {
         background-color: #eeeec4;
         padding-bottom: 12px;
     }
@@ -517,6 +537,17 @@ table tr:nth-child(even) {
     .carousel-caption h2 {
         margin: 5px
     }
+
+    .footer #link-list {
+        list-style: none;
+        margin-bottom: 0;
+        display: inline;
+
+    }
+    .footer #link-list li {
+        padding: 8px;
+        float: left
+    }
 }
 
 @media(min-width: 992px) {
@@ -537,7 +568,7 @@ table tr:nth-child(even) {
         float: right
     }
     .footer #link-list li {
-        padding: 3px;
+        padding: 8px;
         float: left
     }
     #audience-section {
@@ -550,6 +581,16 @@ table tr:nth-child(even) {
     }
     #panel {
         height: 300px
+    }
+
+    .intro .row
+    {
+        background-color: #a90329;
+    }
+
+    .aboutInfo
+    {
+        color: white;
     }
 }
 
@@ -576,20 +617,19 @@ table tr:nth-child(even) {
     .notice .input-group {
         width: 90%
     }
+
+    .intro .row
+    {
+        background-color: #a90329;
+    }
+
+    .aboutInfo
+    {
+        color: white;
+    }
 }
 
-@media(max-width: 560px) {
-    .footer #link-list {
-        display: block;
-        float: left;
-        margin: 0;
-        padding: 0
-    }
-    .footer #link-list li {
-        padding: 3px;
-        clear: left
-    }
-}
+
 
 @media(max-width: 650px) {
     #nav-name {
