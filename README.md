@@ -1,7 +1,7 @@
 # WebsiteDemo
 
-Pretty lame website, I know. I'm a beginner guys. Best I can do watching 5 minute YouTube videos.
+A demo I made for the BUET website design contest. 
 
-Feel free to suggest changes and all. 
+Feel free to suggest changes and contribute to the project. 
 
 Peace~
