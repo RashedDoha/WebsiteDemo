@@ -17,6 +17,8 @@
 
 
 
+
+
 </head>
 <body>
 
@@ -274,11 +276,14 @@
 
 
 <div class="container">
+
+    <div class="row carousel-row">
+        <div class="col-md-9 col-xs-12 carousel-part">
     <div class="carousel slide" id="MyCarousel">
 
         <!-- Indicators -->
 
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" id="carousel-dots">
             <li class="active" data-slide-to="0" data-target="#MyCarousel"></li>
             <li data-slide-to="1" data-target="#MyCarousel"></li>
             <li data-slide-to="2" data-target="#MyCarousel"></li>
@@ -336,6 +341,22 @@
         <a class="right carousel-control" data-slide="next" href="#MyCarousel"><span class="icon-next"></span></a>
 
     </div><!--End carousel slide-->
+        </div>
+
+        <div class="col-md-3 hidden-sm hidden-xs carousel-part">
+            <ul class="carousel-list">
+                <li><a id="carousel-item-0" href="#" class="carousel-item">Seminar on Blue LED</a></li>
+                <li><a id="carousel-item-1" href="#" class="carousel-item">Civil Building</li>
+                <li><a id="carousel-item-2" href="#" class="carousel-item">EME Building</a></li>
+                <li><a id="carousel-item-3" href="#" class="carousel-item">Math Olympiad with huge response</a></li>
+                <li><a id="carousel-item-4" href="#" class="carousel-item">International Robotics Competition</a></li>
+            </ul>
+        </div>
+
+
+        </div>
+
+
 
     <br/>
 
@@ -572,7 +593,7 @@
 
 
 
-    <!--</div>&lt;!&ndash; End row &ndash;&gt;-->
+    <!--</div><!-- End row -->-->
 
 
     <div class="row">
@@ -770,6 +791,39 @@
 <script src="../js/scrollspy.js"></script>
 
 <script src="../js/script.js"></script>
+
+<script>
+
+    $(document).ready(function(){
+        var lastClicked = $("#carousel-item-0");
+        lastClicked.parent().css('background-color', '#a90329');
+        lastClicked.css('color', 'white');
+        $('.carousel-item').click(function(){
+            lastClicked.parent().css('background-color', 'white');
+            lastClicked.css('color', '#222');
+            var parent = event.target.parentElement;
+            parent.style.backgroundColor = "#a90329";
+            event.target.style.color = "white";
+            var id = event.target.id;
+            var number = id.substr(14,1);
+            $("#MyCarousel").carousel(Number(number));
+            lastClicked = $(event.target);
+        });
+
+        $('#MyCarousel').on('slid.bs.carousel', function(e){
+            var x = $(".active", e.target).index();
+            lastClicked.parent().css('background-color', 'white');
+            lastClicked.css('color', '#222');
+            $('#carousel-item-'.concat(Number(x))).parent().css('background-color', '#a90329');
+            $('#carousel-item-'.concat(Number(x))).css('color', 'white');
+            lastClicked = $('#carousel-item-'.concat(Number(x)));
+        });
+
+    });
+
+
+
+</script>
 
 </body>
 </html>
