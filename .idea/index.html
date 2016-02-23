@@ -305,7 +305,7 @@
                 <img src="../images/carousel/civil_building.jpg">
                 <div class="carousel-caption">
                     <h2>Civil Building</h2>
-                    <p>These people make buildings and Stuff...</p>
+                    <p>This is the home of the civil department of buet</p>
                 </div><!--End carousel-caption-->
             </div><!--End item-->
 
@@ -313,7 +313,7 @@
                 <img src="../images/carousel/eme_building.jpg">
                 <div class="carousel-caption">
                     <h2>EME Building</h2>
-                    <p>These people just make Cars and Engines and all kinds of cool stuff...</p>
+                    <p>This is the home of the mechanical department of buet</p>
                 </div><!--End carousel-caption-->
             </div><!--End item-->
 
@@ -345,11 +345,36 @@
 
         <div class="col-md-3 hidden-sm hidden-xs carousel-part">
             <ul class="carousel-list">
-                <li><a id="carousel-item-0" href="#" class="carousel-item">Seminar on Blue LED</a></li>
-                <li><a id="carousel-item-1" href="#" class="carousel-item">Civil Building</li>
-                <li><a id="carousel-item-2" href="#" class="carousel-item">EME Building</a></li>
-                <li><a id="carousel-item-3" href="#" class="carousel-item">Math Olympiad with huge response</a></li>
-                <li><a id="carousel-item-4" href="#" class="carousel-item">International Robotics Competition</a></li>
+                <li><div  class="carousel-item"><a id="carousel-item-0" href="#">Seminar on Blue LED</a><br>
+                <span class="carousel-list-subheader">A Seminar will be held today on the invention of the Blue LED</span>
+                    <img class="carousel-small-image" src="../images/carousel/ece_building.jpg">
+                    <div class="clear"></div>
+                    <span class="read-more"><a href="#">Read More...<span class="glyphicon glyphicon-triangle-right"></span></a></span>
+                </div></li>
+                <li><div  class="carousel-item"><a id="carousel-item-1" href="#">Civil Building</a><br>
+                    <span class="carousel-list-subheader">This is the home of the civil department of buet</span>
+                    <img class="carousel-small-image" src="../images/carousel/civil_building.jpg">
+                    <div class="clear"></div>
+                    <span class="read-more"><a href="#">Read More...<span class="glyphicon glyphicon-triangle-right"></span></a></span>
+                </div></li>
+                <li><div  class="carousel-item"><a id="carousel-item-2" href="#">EME Building</a>
+                    <span class="carousel-list-subheader">This is the home of the mechanical department of buet</span>
+                    <img class="carousel-small-image" src="../images/carousel/eme_building.jpg">
+                    <div class="clear"></div>
+                    <span class="read-more"><a href="#">Read More...<span class="glyphicon glyphicon-triangle-right"></span></a></span>
+                </div></li>
+                <li><div  class="carousel-item"><a id="carousel-item-3" href="#">Math Olympiad with huge response</a>
+                    <span class="carousel-list-subheader">Buet Math club organized its first ever Math Olympiad...</span>
+                    <img class="carousel-small-image" src="../images/carousel/math_image.jpg">
+                    <div class="clear"></div>
+                    <span class="read-more"><a href="#">Read More...<span class="glyphicon glyphicon-triangle-right"></span></a></span>
+                </div></li>
+                <li><div  class="carousel-item"><a id="carousel-item-4" href="#">International Robotics Competition</a>
+                    <span class="carousel-list-subheader">The BUET round of IRC saw students bring out their technical sides...</span>
+                    <img class="carousel-small-image" src="../images/carousel/irc_image.jpg">
+                    <div class="clear"></div>
+                    <span class="read-more"><a href="#">Read More...<span class="glyphicon glyphicon-triangle-right"></span></a></span>
+                </div></li>
             </ul>
         </div>
 
@@ -796,13 +821,17 @@
 
     $(document).ready(function(){
         var lastClicked = $("#carousel-item-0");
-        lastClicked.parent().css('background-color', '#a90329');
+        lastClicked.parent().parent().css('background-color', '#a90329');
         lastClicked.css('color', 'white');
+        lastClicked.siblings().css('display', 'inline');
+        lastClicked.siblings().css('color', 'white');
+        lastClicked.siblings().children().css('color', 'white');
         $('.carousel-item').click(function(){
-            lastClicked.parent().css('background-color', 'white');
+            lastClicked.parent().parent().css('background-color', 'white');
             lastClicked.css('color', '#222');
+            lastClicked.siblings().css('display', 'none');
             var parent = event.target.parentElement;
-            parent.style.backgroundColor = "#a90329";
+            parent.parentNode.style.backgroundColor = "#a90329";
             event.target.style.color = "white";
             var id = event.target.id;
             var number = id.substr(14,1);
@@ -812,10 +841,14 @@
 
         $('#MyCarousel').on('slid.bs.carousel', function(e){
             var x = $(".active", e.target).index();
-            lastClicked.parent().css('background-color', 'white');
+            lastClicked.siblings().css("display", "none");
+            lastClicked.parent().parent().css('background-color', 'white');
             lastClicked.css('color', '#222');
-            $('#carousel-item-'.concat(Number(x))).parent().css('background-color', '#a90329');
+            $('#carousel-item-'.concat(Number(x))).parent().parent().css('background-color', '#a90329');
             $('#carousel-item-'.concat(Number(x))).css('color', 'white');
+            $('#carousel-item-'.concat(Number(x))).siblings().css("display", "inline");
+            $('#carousel-item-'.concat(Number(x))).siblings().css("color", "white");
+            $('#carousel-item-'.concat(Number(x))).siblings().children().css("color", "white");
             lastClicked = $('#carousel-item-'.concat(Number(x)));
         });
 

@@ -160,6 +160,25 @@ h3 {
     font-size: 1.5em;
 }
 
+.carousel-list-subheader
+{
+    font-size: 12px;
+    display: none;
+}
+
+.carousel-small-image
+{
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+    display: none;
+}
+
+.carousel-item
+{
+    line-height: 16px;
+}
+
 .carousel-list li a
 {
     text-decoration: none;
@@ -171,6 +190,13 @@ h3 {
     color: white;
 }
 
+.read-more
+{
+    font-size: 12px;
+    float:right;
+    color: white;
+    display: none;
+}
 
 
 
